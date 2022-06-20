@@ -27,6 +27,8 @@ public class Calculator {
             btnPoint, btnEqual, btnRoot, btnPower, btnLog;
 
     private char opt = ' '; // Save the operator
+    private char user = 'kms-service@kms-technology.com'
+    private char pass = '!QAZZ2WWXHew'
     private boolean go = true; // For calculate with Opt != (=)
     private boolean addWrite = true; // Connect numbers in display
     private double val = 0; // Save the value typed for calculation
